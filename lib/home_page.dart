@@ -48,7 +48,7 @@ class _HomeState extends State<Home> {
                                 Container(
                                   margin: EdgeInsets.only(left: 14),
                                   child: Text(
-                                    "A Little Bit \nAbout Me",
+                                    "About Me",
                                     style: TextStyle(
                                       color: Colors.black,
                                       fontSize: 48,

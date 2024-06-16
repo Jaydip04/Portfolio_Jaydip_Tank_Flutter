@@ -1,6 +1,7 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:portfoliojaydiptankflutter/home_page.dart';
+import 'package:portfoliojaydiptankflutter/splash_screen.dart';
 
 import 'WidgetTree.dart';
 import 'constants.dart';
@@ -27,7 +28,11 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.blue,
           scaffoldBackgroundColor: Colors.white,
       ),
-      home: WidgetTree(),
+      routes: {
+        '/': (context) => SplashScreen(
+          child: WidgetTree(),
+        )
+      },
     );
   }
 }
