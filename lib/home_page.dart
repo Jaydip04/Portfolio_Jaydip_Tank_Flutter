@@ -286,7 +286,7 @@ class _HomeState extends State<Home> {
                                             recognizer: TapGestureRecognizer()
                                               ..onTap = () {
                                                 String url =
-                                                    "https://www.linkedin.com/feed/";
+                                                    "https://www.linkedin.com/in/tank-jaydip-95a459251/";
                                                 launch(url);
                                               }),
                                       ],

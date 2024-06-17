@@ -585,7 +585,7 @@ class _ContactState extends State<Contact> {
                                   IconButton(
                                     onPressed: () {
                                       String url =
-                                          "https://www.linkedin.com/feed/";
+                                          "https://www.linkedin.com/in/tank-jaydip-95a459251/";
                                       launch(url);
                                     },
                                     icon: Icon(
